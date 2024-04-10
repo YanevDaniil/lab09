@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AlertActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите функцию"
+        android:textAlignment="center" />
+
+    <RadioGroup
+        android:id="@+id/radgroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radcos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cos" />
+
+        <RadioButton
+            android:id="@+id/radsin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sin" />
+
+        <RadioButton
+            android:id="@+id/radtan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tan" />
+
+        <RadioButton
+            android:id="@+id/radacos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/acos" />
+
+        <RadioButton
+            android:id="@+id/radasin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/asin" />
+    </RadioGroup>
+
+</LinearLayout>
